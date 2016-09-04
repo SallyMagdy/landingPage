@@ -2,8 +2,9 @@
 *******Typography******
 **************************/
 
+@import 'https://fonts.googleapis.com/css?family=El+Messiri';
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'El Messiri', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #666;
@@ -134,7 +135,7 @@ section {
 
 #home-slider .caption {
 	position: absolute;
-	top: 50%;
+	top: 34%;
 	margin-top: -104px;
 	left: 0;
 	right: 0;
@@ -282,96 +283,6 @@ section {
 
 
 /*************************
-********Service CSS*******
-**************************/
-
-.service-icon {
-	border-radius: 4px;
-	color: #fff;
-	display: inline-block;
-	font-size: 36px;
-	height: 90px;
-	line-height: 90px;
-	width: 90px;
-	-webkit-transition: background-color 0.2s ease;
-	transition: background-color 0.2s ease;
-}
-
-.our-services .col-sm-4:hover .service-icon {
-	background-color: #333;
-}
-
-.our-services .col-sm-4 {
-	border-right: 1px solid #f2f2f2;
-	border-bottom: 1px solid #f2f2f2;
-	padding-bottom: 50px;
-}
-
-.our-services .col-sm-4:nth-child(4),
-.our-services .col-sm-4:nth-child(5),
-.our-services .col-sm-4:nth-child(6) {
-	border-bottom: 0;
-	padding-top: 60px;
-}
-
-.our-services .col-sm-4:nth-child(3),
-.our-services .col-sm-4:nth-child(6) {
-	border-right: 0;
-}
-
-.service-info h3 {
-	margin-top: 35px;
-}
-
-
-/*************************
-********About CSS*******
-**************************/
-
-#about-us {
-	background-image: url(../images/about-bg.jpg);
-	padding: 60px 0;
-}
-
-#about-us h2 {
-	margin-top: 0;
-	color: #fff;
-}
-
-#about-us .lead {
-	font-size: 16px;
-	margin-bottom: 10px;
-}
-
-#about-us h1 {
-	margin-bottom: 30px;
-}
-
-.progress {
-	height: 20px;
-	background-color: #fff;
-	border-radius: 0;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	margin-bottom: 25px;
-}
-
-.progress-bar {
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	text-align: right;
-	padding-right: 12px;
-	font-size: 12px;
-	font-weight: 600;
-}
-
-.progress .progress-bar.six-sec-ease-in-out {
-	-webkit-transition: width 2s ease-in-out;
-	transition: width 2s ease-in-out;
-}
-
-
-/*************************
 ********portfolio CSS*****
 **************************/
 
@@ -501,97 +412,6 @@ section {
 
 
 /*************************
-*********Team CSS*********
-**************************/
-
-#team {
-	padding-top: 0;
-}
-
-.team-members {
-	margin-bottom: 25px;
-}
-
-.social-icons {
-	margin-top: 30px;
-	text-align: center;
-}
-
-.social-icons ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: inline-block;
-}
-
-.social-icons ul li {
-	float: left;
-	margin-right: 8px;
-}
-
-.social-icons ul li:last-child {
-	margin-right: 0;
-}
-
-.social-icons ul li a {
-	color: #fff;
-	background-color: #d9d9d9;
-	height: 36px;
-	width: 36px;
-	line-height: 36px;
-	display: block;
-	font-size: 16px;
-	opacity: 0.8;
-}
-
-.social-icons ul li a:hover {
-	opacity: 1;
-	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
-}
-
-.team-member {
-	text-align: center;
-	color: #333;
-	font-size: 14px;
-}
-
-.team-member:hover .social-icons ul li a.facebook {
-	background-color: #3b5999;
-}
-
-.team-member:hover .social-icons ul li a.twitter {
-	background-color: #2ac6f7;
-}
-
-.team-member:hover .social-icons ul li a.dribbble {
-	background-color: #ff5b92;
-}
-
-.team-member:hover .social-icons ul li a.linkedin {
-	background-color: #036dc0;
-}
-
-.team-member:hover .social-icons ul li a.rss {
-	background-color: #ff6b00;
-}
-
-#team .img-responsive {
-	width: 100%;
-}
-
-.member-info h3 {
-	margin-top: 35px;
-}
-
-.member-info h4 {
-	font-size: 14px;
-	margin-bottom: 15px;
-	color: #999;
-}
-
-
-/*************************
 *******Features CSS*******
 **************************/
 
@@ -618,146 +438,6 @@ section {
 
 #features .slider-overlay {
 	opacity: 0.8;
-}
-
-
-/*************************
-*****Pricing Table CSS****
-**************************/
-
-.pricing-table {
-	text-align: center;
-}
-
-.single-table {
-	padding: 30px 20px 20px;
-	border: 1px solid #f2f2f2;
-}
-
-.single-table h3 {
-	margin-top: 0;
-	padding: 0;
-	font-size: 18px;
-	text-transform: uppercase;
-	margin-bottom: 30px;
-}
-
-.price {
-	font-size: 36px;
-	line-height: 36px;
-}
-
-.price span {
-	font-size: 14px;
-	line-height: 14px;
-}
-
-.single-table ul {
-	list-style: none;
-	padding: 0;
-	margin: 30px 0;
-}
-
-.single-table ul li {
-	line-height: 30px;
-}
-
-.single-table.featured {
-	color: #fff;
-}
-
-.single-table.featured h3 {
-	color: #fff;
-}
-
-.single-table.featured .btn.btn-primary {
-	background-color: #fff;
-}
-
-
-/*************************
-********Twitter CSS*******
-**************************/
-
-#twitter {
-	background-image: url(../images/twitter-bg.jpg);
-}
-
-#twitter > div {
-	text-align: center;
-	position: relative;
-}
-
-#twitter-carousel {
-	position: relative;
-	z-index: 15
-}
-
-.twitter-icon {
-	position: relative;
-	z-index: 15;
-	color: #fff;
-}
-
-.twitter-icon .fa-twitter {
-	font-size: 24px;
-	height: 64px;
-	width: 64px;
-	line-height: 65px;
-	border-radius: 50%;
-	position: relative;
-}
-
-.twitter-icon .fa-twitter:after {
-	position: absolute;
-	content: "";
-	border-width: 8px;
-	border-style: solid;
-	left: 24px;
-	bottom: -14px;
-}
-
-#twitter-carousel .item {
-	padding: 0 55px;
-}
-
-#twitter-carousel .item a {
-	color: #fff;
-}
-
-.twitter-icon h4 {
-	text-transform: uppercase;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	color: #fff;
-}
-
-.twitter-left-control,
-.twitter-right-control {
-	position: absolute;
-	top: 50%;
-	color: #fff;
-	border: 1px solid #fafafa;
-	height: 34px;
-	width: 34px;
-	line-height: 31px;
-	margin-top: -17px;
-	font-size: 18px;
-	border-radius: 50%;
-	z-index: 15
-}
-
-.twitter-left-control {
-	left: 80px;
-}
-
-.twitter-right-control {
-	right: 80px
-}
-
-.twitter-left-control:hover,
-.twitter-right-control:hover {
-	color: #fff;
 }
 
 
@@ -912,9 +592,8 @@ hr {
 	color: white;
 }
 
-textarea.form-control {
-	min-height: 180px;
-	resize: none;
+.col-sm-6.gender {
+	font-size: .6em;
 }
 
 .form-group {
@@ -944,10 +623,14 @@ ul.address {
 .btn-submit {
 	display: block;
 	padding: 12px;
-	width: 100%;
 	color: #fff;
 	border: 0;
 	margin-top: 40px;
+}
+
+label {
+	margin-left: 45px;
+	margin-right: 45px;
 }
 
 #footer {
@@ -966,55 +649,6 @@ ul.address {
 
 #footer .footer-bottom a:hover {
 	text-decoration: underline;
-}
-
-.footer-logo {
-	display: inline-block;
-	margin-bottom: 5px;
-}
-
-#footer .social-icons {
-	margin-top: 15px;
-}
-
-#footer .social-icons ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-#footer .social-icons ul li a {
-	background-color: rgba(0, 0, 0, .2);
-	border-radius: 4px;
-	line-height: 33px;
-}
-
-#footer .social-icons ul li a:hover {
-	color: #fff
-}
-
-#footer .social-icons ul li a.envelope:hover {
-	background-color: #CECB26;
-}
-
-#footer .social-icons ul li a.facebook:hover {
-	background-color: #3b5999;
-}
-
-#footer .social-icons ul li a.twitter:hover {
-	background-color: #2ac6f7;
-}
-
-#footer .social-icons ul li a.dribbble:hover {
-	background-color: #ff5b92;
-}
-
-#footer .social-icons ul li a.linkedin:hover {
-	background-color: #036dc0;
-}
-
-#footer .social-icons ul li a.tumblr:hover {
-	background-color: #ff6b00;
 }
 
 
